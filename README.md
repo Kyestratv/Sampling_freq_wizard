@@ -10,25 +10,11 @@
 python .\sampling_gui.py
 ```
 
-已经打包好的 Windows 可执行文件位于：
-
-```text
-dist\SamplingSpectrumDemo.exe
-```
-
 如果缺少绘图库，先安装：
 
 ```powershell
 python -m pip install matplotlib numpy
 ```
-
-## 重新打包
-
-```powershell
-.\build_exe.ps1
-```
-
-打包脚本会把 Tcl/Tk 运行库复制到本项目的 `runtime_tcl` 目录，再使用 PyInstaller 生成单文件 exe。
 
 ## 功能
 
