@@ -1,4 +1,4 @@
-
+2026/7/10
 # 采样频谱演示工具
 
 这是一个用 Python + Tkinter + Matplotlib 编写的小型图形化程序。
